@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html	lang= "pl-PL">
+<head>
+	<title>Kuźnicki</Title>
+	<META HTTP-EQUIV="content-type" CONTENT="text/html;" CHARSET="iso-8859-2" CHARSET="UTF-8">
+</head>
+<body>
+	<h1><b> Sposoby podłączania styli do strony.</b></h1>
+	<h3>1. Zewnętrzny arkusz stylów.</h3>
+	<table border=2 <table style="border:3px solid black;border-collapse: collapse;">
+		<thead>
+			<tr>
+				<td>
+					<textarea cols="20" rows="15">
+						<head>
+							<link rel="Stylesheet" type="text/css" href="style.css" />
+						</head>
+					</textarea>
+				</td>
+			</tr>
+		</thead>
+	</table>
+
+	<h3>2. Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony.</h3>
+	<table border=2 <table style="border:3px solid black;border-collapse: collapse;">
+		<thead>
+			<tr>
+				<td>
+					<textarea cols="20" rows="15">
+						<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+					</textarea>
+				</td>
+			</tr>
+		</thead>
+	</table>
+
+
+	<h3>3. Wewnętrzny arkusz stylów.</h3>
+	<table border=2 <table style="border:3px solid black;border-collapse: collapse;">
+		<thead>
+			<tr>
+				<td>
+					<textarea cols="20" rows="15">
+						selektor1 { cecha: wartość; cecha2: wartość2... } selektor2 { cecha: wartość; cecha2: wartość2... }
+					</textarea>
+				</td>
+			</tr>
+		</thead>
+	</table>
+
+	<h3>4. Alternatywny arkusz stylów.</h3>
+	<table border=2 <table style="border:3px solid black;border-collapse: collapse;">
+		<thead>
+			<tr>
+				<td>
+					<textarea cols="20" rows="15">
+						<head>
+							<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+							<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+							<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+						</head>
+					</textarea>
+				</td>
+			</tr>
+		</thead>
+	</table>
+	
+	<h3>5. Import arkusza stylów.</h3>
+	<table border=2 <table style="border:3px solid black;border-collapse: collapse;">
+		<thead>
+			<tr>
+				<td>
+					<textarea cols="20" rows="15">
+						< style type="text/css">
+						@import url(adres zewnętrznego arkusza stylów);
+						</ style>
+					</textarea>
+				</td>
+			</tr>
+		</thead>
+	</table>
+</body>
+
+<!--Kuźnicki-->

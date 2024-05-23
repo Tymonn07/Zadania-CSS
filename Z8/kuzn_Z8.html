@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html	lang= "pl-PL">
+	<head>
+	<title>Kuźnicki</title>
+		<META HTTP-EQUIV="content-type" CONTENT="text/html;" CHARSET="iso-8859-2" CHARSET="UTF-8">
+	</head>
+	<body>
+		<OL TYPE=1 START=1>
+			<H1>Wewnętrzny arkusz stylów:</H1>
+			<H1><LI>gdzie jest wstawiany</H1>
+			
+			<p>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami < head> a </ head>).
+			Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać 
+			takie same atrybuty (inne niż domyślne).</p>
+			<H1><LI>składnia teoretyczna,</H1>
+				<table border="3">
+					<tr>
+						<td>
+							< head> <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp(...) <br>
+							&nbsp&nbsp< style type="text/css"> <br>
+							&nbsp&nbsp< ![CDATA[ */ <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp selektor1 { cecha: wartość; cecha2: wartość2... } <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp selektor2 { cecha: wartość; cecha2: wartość2... } <br>
+							&nbsp&nbsp&nbsp&nbsp&nbsp(...) <br>
+							&nbsp&nbsp /* ]]>  <br>
+							&nbsp&nbsp </ style> <br>
+							&nbsp&nbsp&nbsp(...) <br>
+							 < /head>  <br>
+						</td>
+					</tr>
+				</table>
+		
+			 <H1><LI>jakie mogą być selektory</H1>
+			 
+			 <p>Jako "cecha" (w deklaracji stylu - powyżej)
+			 należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi 
+			 (opisane w kolejnych rozdziałach).</p>
+			
+			 
+			 <H1><LI>jakie mogą być cechy i wartości</H1>
+			 
+			 <p>Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+			Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech).
+			Są one wtedy rozdzielone średnikami.</p>
+		 </OL>
+	</body>
+</html>
+
+<!--Kuźnicki-->
