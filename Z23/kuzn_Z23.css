@@ -1,0 +1,34 @@
+p#pogrubienie_kuznicki{
+	font-size: 33px;
+	color: #8868CA;
+	font-weight: bold;
+}
+p#pochylona_kuznicki{
+	font-size: 38pt;
+	color: #ECCC66;
+	font-weight: italic;
+}
+p#index_gorny_kuznicki{
+	font-size: 1,3cm;
+	color: #9C9A16;
+	vertical-align: super;
+}
+p#index_dolny_kuznicki{
+	font-size: 2,1cm;
+	color: rgb(22%,100%,87%);
+	vertical-align:sub;
+}
+p#mono_kuznicki{
+	font-size: 403x;
+	color: #1CEA66;
+}
+p#powiekszenie_kuznicki{
+	color: #564A98;
+	font-size: larger;
+}
+p#pomniejszenie_kuznicki{
+	color: rgb(73%,68%,20%);
+	font-size: smaller;
+}
+
+/*Tymon Kuźnicki*/
