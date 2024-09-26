@@ -1,0 +1,10 @@
+h3 {
+	font-size:15px;
+	width: 300pt;
+	height: 2cm;	
+	padding : 20px;
+	margin-right: 100pt;	
+	border-color : maroon;
+	border : groove;
+	background : rgb(50,205,50);
+}
